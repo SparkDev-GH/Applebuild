@@ -1,0 +1,12 @@
+name: Applebuild
+version: '${project.version}'
+main: eu.apple.applebuild.Main
+api-version: '1.20'
+authors: [SPARK]
+description: Plugin für den Applebuild server.
+commands:
+  configTest:
+    description: Test
+prefix: 'ApplebuildEU'
+
+depend: ['Multiverse-Core']
